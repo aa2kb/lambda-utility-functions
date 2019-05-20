@@ -1,3 +1,7 @@
+# Password Protected Cloudfront
+## type: Lambda@edge
+
+```js
 'use strict';
 exports.handler = (event, context, callback) => {
 
@@ -29,3 +33,4 @@ exports.handler = (event, context, callback) => {
   // Continue request processing if authentication passed
   callback(null, request);
 };
+```
